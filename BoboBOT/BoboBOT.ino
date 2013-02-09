@@ -16,6 +16,7 @@
 * Ocero El Bierzo, Spain Dec'12
 */
 
+
 #include <SoftwareSerial.h>
 #include <PololuQik.h>
 
@@ -47,13 +48,22 @@ void loop(){
          case 4:
          atras();
            break;
-           case 5:
-        diagonalIZQ();
-           break;
-           case 6:
-         diagonalDER();
-           break;
            case 7:
+         parada();
+           break;
+            case 49:
+         derecha();
+           break;
+         case 50:
+         izquierda();
+           break;
+         case 51:
+         adelante();
+           break;
+         case 52:
+         atras();
+           break;
+            case 55:
          parada();
            break;
    
